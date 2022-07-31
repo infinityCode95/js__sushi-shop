@@ -1,0 +1,26 @@
+body {
+	color: black;
+	background-color: #ede8e8;
+	line-height: 1;
+	font-family: "Montserrat";
+	font-size: 16px;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+
+.main {
+	flex: 1 1 auto;
+
+	&__active {
+		opacity: 0.3;
+	}
+}
+
+.none {
+	display: none;
+}

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="img/icons/logo.svg" sizes="any" type="svg">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+	<title>Rolls</title>
+</head>
+
+<body>
+
+	<div class="wrapper">
+
+		<!-- ! Header -->
+
+		<header class="header">
+			<div class="container-fluid">
+				<div class="header__wrapper">
+
+					<div class="header__city">
+						<div class="header__logo-wrapper">
+							<img width="60px" height="60px" src="img/icons/header__logo.svg" alt="logo" class="header__logo">
+						</div>
+						<div class="header__dropdown-wrapper">
+							<div class="header__dropdown dropdown">
+								<button class="dropdown__button">Город</button>
+								<ul class="dropdown__list">
+									<li class="dropdown__list-item" data-value="msk">Москва</li>
+									<li class="dropdown__list-item" data-value="spb">Санкт-Петербург</li>
+									<li class="dropdown__list-item" data-value="krd">Краснодар</li>
+									<li class="dropdown__list-item" data-value="krd">Екатеринбург</li>
+									<li class="dropdown__list-item" data-value="krd">Брянск</li>
+									<li class="dropdown__list-item" data-value="krd">Смоленск</li>
+									<li class="dropdown__list-item" data-value="sch">Сочи</li>
+								</ul>
+								<input type="text" name="select-city" value="" class="dropdown__input">
+							</div>
+						</div>
+					</div>
+
+					<div class="header__action">
+						<a class="header__phone" href="tel:8-800-800-80-80">8-800-800-80-80</a>
+
+						<div class="header__icons-wrapper">
+							<div class="header__profile-wrapper">
+								<i class="header__profile fa-regular fa-circle-user fa-2x"></i>
+							</div>
+
+							<div class="header__cart-wrapper">
+								<i class="header__cart fa-solid fa-basket-shopping fa-2x"></i>
+								<div class="header__cart-orderlength">0</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		</header>
+
+
+		<!-- ! Main -->
+
+		<main class="main">
+
+			<div class="greeting">
+				<div class="container-fluid">
+					<div class="greeting__wrapper">
+						<div class="greeting__flex">
+							<div class="greeting__title-wrapper">
+								<span class="greeting__title">Привет!</span>
+								<span class="greeting__title">Попробуешь что-нибудь </span>
+								<span class="greeting__title">вкусное?</span>
+							</div>
+							<div class="greeting__img-wrapper">
+								<img src="img/greeting/greeting__one.jpg" alt="image with food" class="greeting__img img-fluid">
+								<img id="delete" src="img/greeting/greeting__two.jpg" alt="image with food" class="greeting__img img-fluid">
+							</div>
+						</div>
+						<a href="#menu">
+							<button class="greeting__menu-btn">Меню</button>
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div id="menu" class="menu">
+				<div class="container">
+					<h2 class="menu__title">Меню</h2>
+
+					<div class="product__list row justify-content-center gap-3">
+
+					</div>
+
+				</div>
+			</div>
+
+		</main>
+
+
+		<!-- ! Footer -->
+
+		<footer class="footer">
+			<div class="container-fluid">
+				<div class="footer__wrapper">
+
+					<div class="footer__info">
+						<div class="footer__info-item">О нас</div>
+						<div class="footer__info-item">Вакансии</div>
+						<div class="footer__info-item">Партнерам</div>
+						<div class="footer__info-item">Франшиза</div>
+						<div class="footer__info-item">Поставщикам</div>
+					</div>
+
+
+					<div class="footer__flex-wrapper">
+						<div class="footer__logo-wrapper">
+							<img width="120px" height="120px" src="img/icons/header__logo.svg" alt="logo" class="footer__logo">
+							<div class="footer__text-wrapper">
+								<a class="footer__phone" href="tel:8-800-800-80-80">8-800-800-80-80</a>
+								<p class="footer__text">Магазин роллов © 2022</p>
+							</div>
+						</div>
+
+						<div class="footer__body">
+								  <div class="footer__socials-wrapper">
+										<i class="footer__socials fa-brands fa-vk fa-2x"></i>
+										<i class="footer__socials fa-brands fa-youtube fa-2x"></i>
+										<i class="footer__socials fa-brands fa-facebook-square fa-2x"></i>
+								  </div>
+						</div>
+					</div>
+
+					<div class="footer__download-wrapper">
+						<img width="200px" height="70px" src="img/footer/download__iphone.png" alt="App Store"
+							class="footer__download-img">
+						<img width="200px" height="70px" src="img/footer/download__android.png" alt="Google Play"
+							class="footer__download-img">
+					</div>
+
+				</div>
+			</div>
+		</footer>
+
+	</div>
+
+	<div class="profile">
+		<div class="profile__close-wrapper">
+			<i class="profile__close-icon fa-solid fa-circle-xmark fa-2x"></i>
+		</div>
+		<div class="profile__body">
+			<ul class="profile__list">
+				<li class="profile__list-item">Все заказы</li>
+				<li class="profile__list-item">Мои данные</li>
+				<li class="profile__list-item">Промокоды</li>
+				<li class="profile__list-item">Уведомления</li>
+				<li class="profile__list-item">Удалить профиль</li>
+				<li class="profile__list-item">Выйти</li>
+			</ul>
+		</div>
+		<div class="profile__socials-wrapper">
+			<i class="profile__social-icon fa-brands fa-vk fa-2x"></i>
+			<i class="profile__social-icon fa-brands fa-youtube fa-2x"></i>
+			<i class="profile__social-icon fa-brands fa-facebook-square fa-2x"></i>
+		</div>
+	</div>
+
+	<div id="card" class="cart">
+
+		<div class="cart__close-wrapper">
+			<img class="cart__close-icon" src="img/icons/close-icon.svg">
+		</div>
+
+		<div class="cart__header">
+			<h5 class="cart__header-title">Ваш заказ</h5>
+			<p data-cart-empty class="cart__header-empty">Корзина пуста</p>
+		</div>
+
+		<div class="cart__product-list">
+
+		</div>
+
+		<div class="cart__total">
+			<p data-cart-delivery class="total__delivery none">
+				<span class="total__delivery-title">Доставка :</span>
+				<span class="total__delivery-cost">0 р</span>
+				<span class="total__delivery-free">Бесплатно при заказе от 600 рублей</span>
+			</p>
+			<p class="total__amount">
+				<span class="total__amount-title">Итого :</span>
+				<span class="total__amount-price">0 рублей</span>
+			</p>
+		</div>
+
+		<div id="order-form" class="cart__order order">
+			<h5 class="order__title">Оформить заказ</h5>
+				<form class="order__form">
+					<div class="order__input-wrapper">
+						<input type="text" class="order__input" placeholder="Номер телефона">
+					</div>
+					<button type="submit" class="order__btn">Заказать</button>
+				</form>
+		</div>
+
+	</div>
+
+</body>
+
+</html>
